@@ -488,6 +488,16 @@
   }
 }
 
+@media (max-width: 780px) {
+  #about {
+    .about__container {
+      .about__cont--hero {
+        width: 100%;
+      }
+    }
+  }
+}
+
 @media (max-width: 710px) {
   #newsletter {
     .newsletter__container {
