@@ -600,7 +600,7 @@
     grid-column-gap: 64px;
     align-items: center;
     .insta__cont--left {
-      width: 491px;
+      // width: 491px;
       h6 {
         padding-bottom: 8px;
         font-weight: 700;
@@ -677,8 +677,8 @@
           }
           .icon {
             position: absolute;
-            top: 48%;
-            left: 48%;
+            top: 45%;
+            left: 45%;
             color: #fff;
             font-size: 25px;
             opacity: 0;
@@ -1342,16 +1342,16 @@
   }
 }
 
-@media (max-width: 341px) {
+@media (max-width: 400px) {
   #video {
     position: relative;
-    background-size: 330px;
+    // background-size: 330px;
     .v-btn {
       width: 90px;
       height: 90px;
       position: absolute;
-      top: 50px;
-      left: 120px;
+      top: 60px;
+      left: 150px;
     }
     .m-dialog {
       .m-content {
@@ -1360,6 +1360,14 @@
             width: 290px;
           }
         }
+      }
+    }
+  }
+  #footer {
+    .footer__container {
+      .footer__cont--top {
+        display: flex;
+        column-gap: 0px;
       }
     }
   }

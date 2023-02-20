@@ -607,9 +607,6 @@ h6 {
   grid-column-gap: 64px;
   align-items: center;
 }
-#instagram .instagram__container .insta__cont--left {
-  width: 491px;
-}
 #instagram .instagram__container .insta__cont--left h6 {
   padding-bottom: 8px;
   font-weight: 700;
@@ -682,8 +679,8 @@ h6 {
 }
 #instagram .instagram__container .insta__cont--right #insta .owl-carousel-img .icon {
   position: absolute;
-  top: 48%;
-  left: 48%;
+  top: 45%;
+  left: 45%;
   color: #fff;
   font-size: 25px;
   opacity: 0;
@@ -1198,19 +1195,23 @@ h6 {
     font-size: 48px;
   }
 }
-@media (max-width: 341px) {
+@media (max-width: 400px) {
   #video {
     position: relative;
-    background-size: 330px;
   }
   #video .v-btn {
     width: 90px;
     height: 90px;
     position: absolute;
-    top: 50px;
-    left: 120px;
+    top: 60px;
+    left: 150px;
   }
   #video .m-dialog .m-content .body video {
     width: 290px;
+  }
+  #footer .footer__container .footer__cont--top {
+    display: flex;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
   }
 }

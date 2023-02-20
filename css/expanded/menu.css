@@ -243,9 +243,6 @@ h6 {
   grid-column-gap: 64px;
   align-items: center;
 }
-#instagram .instagram__container .insta__cont--left {
-  width: 491px;
-}
 #instagram .instagram__container .insta__cont--left h6 {
   padding-bottom: 8px;
   font-weight: 700;
@@ -318,8 +315,8 @@ h6 {
 }
 #instagram .instagram__container .insta__cont--right #insta .owl-carousel-img .icon {
   position: absolute;
-  top: 48%;
-  left: 48%;
+  top: 45%;
+  left: 45%;
   color: #fff;
   font-size: 25px;
   opacity: 0;
